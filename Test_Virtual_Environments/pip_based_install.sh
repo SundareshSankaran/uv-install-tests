@@ -6,6 +6,7 @@ set -euo pipefail
 
 pip install --upgrade pip
 
+
 # Create a virtual env
 python -m venv new_env
 
@@ -15,9 +16,14 @@ python -m venv new_env
 # Install packages
 pip install --upgrade -r requirements.txt
 
+echo "installation over"
+
 # Deactivate virtual env
 deactivate
+
+echo "deactivated system"
 
 # Remove virtual env folder
 rm -rf new_env
 
+echo "removed folder"

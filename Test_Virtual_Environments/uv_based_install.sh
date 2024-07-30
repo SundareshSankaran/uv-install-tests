@@ -16,8 +16,14 @@ uv venv new_uv_venv
 # Install packages from requirements.txt
 uv pip install --upgrade -r requirements.txt 
 
+echo "installation over"
+
 # Deactivate env
 deactivate
 
+echo "deactivated system"
+
 # REmove virtual env folder
-rm -rf new_uv_env
+rm -rf new_uv_venv
+
+echo "removed folder"
