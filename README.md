@@ -1,7 +1,13 @@
-# Welcome to SAS® Viya® Workbench <!-- omit in toc -->
+# Python Package installation - pip install and uv <!-- omit in toc -->
 
-## Looking for examples to get you started?
+## Objective
 
-SAS and Python code examples for use with SAS® Viya® Workbench are available on GitHub. After starting SAS® Viya® Workbench, open a terminal and run the following command to clone the examples repository into the root of your workspace:
+This repository provides, under the [Test Virtual Environments](./Test_Virtual_Environments/) folder, two scripts containing commands to create a virtual environment and install Python packages listed in a requirements.txt file.
 
-    git -C "$WORKSPACE" clone https://github.com/sassoftware/sas-viya-workbench-examples.git
+The difference between the two methods are that one uses traditional pip install, whereas the other uses a Rust package called uv, which is claimed to be faster.
+
+The shell scripts, containing calls to Python, are self-explanatory.  Feel free to edit the requirements.txt when carrying out your tests.
+
+## Contact
+[Sundaresh Sankaran](sundaresh.sankaran@gmail.com)
+
