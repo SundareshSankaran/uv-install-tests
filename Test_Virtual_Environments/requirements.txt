@@ -1,2 +1,5 @@
 torch
 swat
+tensorflow
+matplotlib
+pandas
